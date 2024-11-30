@@ -559,7 +559,8 @@ a {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background: #fcfcfc;
-  ransition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 .modal-window-botton {
   position: absolute;
@@ -585,4 +586,24 @@ a {
 .modal-window-botton:focus {
   background-color: #404bbf;
   border: none;
+}
+.svg-vector {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.svg-vector:hover {
+  fill: #ffffff;
+}
+.svg-vector:focus {
+  fill: #ffffff;
+}
+.modal-window-text {
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 16px;
 }
